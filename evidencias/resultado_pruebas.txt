@@ -1,0 +1,34 @@
+Oct 28, 2026 9:25:39 PM pe.fiberlux.nexus.util.Integrations log
+INFO: NexusDesk listo en http://127.0.0.1:40113
+OK 1 - API privada rechaza an?nimo
+OK 2 - Credenciales incorrectas rechazadas
+Oct 28, 2026 9:25:39 PM pe.fiberlux.nexus.util.Integrations log
+INFO: Acceso autenticado usuario #1
+OK 3 - Autenticaci?n de administrador
+OK 4 - Sesi?n HTTP conservada
+OK 5 - Dashboard con datos de incidencias
+OK 6 - Lista de tickets
+OK 7 - RBAC permite administraci?n
+OK 8 - Protecci?n CSRF habilitada
+OK 9 - Creaci?n persistente de ticket
+OK 10 - Detalle y trazabilidad del ticket
+OK 11 - Comentario con fecha y autor
+OK 12 - Cambio de estado autorizado
+OK 13 - Resoluci?n registra tiempo SLA
+OK 14 - Reporte SLA filtrable
+OK 15 - Exportaci?n Excel OpenXML
+OK 16 - Exportaci?n PDF v?lida
+OK 17 - Persistencia despu?s de abrir DAO nuevamente
+OK 18 - Reglas SLA P1 y P4
+OK 19 - JSON conserva tipos enteros
+Oct 28, 2026 9:25:40 PM pe.fiberlux.nexus.util.Integrations log
+INFO: Acceso autenticado usuario #6
+OK 20 - Acceso de cliente corporativo independiente
+OK 21 - Cliente bloqueado en usuarios RBAC
+OK 22 - Cliente bloqueado en reportes gerenciales
+OK 23 - Aislamiento entre clientes de distintos contratos
+OK 24 - Comentario restringido al propietario
+OK 25 - Cliente puede registrar su incidencia
+OK 26 - ID de cliente se obtiene de sesi?n y no del formulario
+
+RESULTADO: 26 verificaciones correctas.
