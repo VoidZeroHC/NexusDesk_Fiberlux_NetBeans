@@ -1,0 +1,4 @@
+5d1726f  01. Base Java MVC DAO, persistencia, seguridad y reglas SLA
+13e33da  02. Siete interfaces UI responsive conectadas al backend
+c1de24b  03. Pruebas de integración, reportes y evidencias visuales
+869df9c  04. Documentación, scripts de inicio y ejecutable offline
