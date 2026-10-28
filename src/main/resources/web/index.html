@@ -1,0 +1,25 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>NexusDesk | Fiberlux NOC</title><link rel="icon" type="image/svg+xml" href="/favicon.svg"><link rel="stylesheet" href="/styles.css"></head><body>
+ <section id="loginView" class="login-page">
+  <div class="login-glow blue"></div><div class="login-glow cyan"></div>
+  <div class="login-layout">
+   <div class="login-aside"><div class="brand large"><span class="brand-icon">F</span><span><b>FIBER<span class="blue-text">LUX</span></b><small>TELECOMUNICACIONES</small></span></div>
+    <p class="eyebrow">CENTRO DE OPERACIONES DE RED</p><h1>Gestión inteligente de incidencias y acuerdos SLA.</h1><p>Un portal integrado para clientes corporativos, ingenieros NOC y administradores. Seguimiento, asignación y resultados en una misma plataforma.</p>
+    <div class="feature"><span>◈</span><div><b>Control de extremo a extremo</b><small>Registro, diagnóstico, asignación y cierre</small></div></div><div class="feature"><span>◷</span><div><b>Monitoreo de niveles de servicio</b><small>Alertas tempranas y reportes de cumplimiento</small></div></div>
+    <div class="login-aside-bottom">NexusDesk NOC · Fiberlux SAC · 2026</div>
+   </div>
+   <div class="login-center"><div class="network-pill"><span class="live-dot"></span> Portal local de desarrollo · Java / NetBeans</div>
+    <div class="login-card"><div class="login-logo"><span class="brand-icon">F</span><div><strong>FIBER<span class="blue-text">LUX</span></strong><small>TELECOMUNICACIONES</small></div></div><h2>Portal de Soporte &amp; NOC</h2><p>Gestión de incidencias, telemetría y enlaces de datos dedicados</p>
+      <div class="role-tabs"><button class="active" type="button" data-demo="cliente">Cliente Corp.</button><button type="button" data-demo="tecnico">Técnico NOC</button><button type="button" data-demo="admin">Administrador</button></div>
+      <div class="login-tip" id="roleTip">Acceso al seguimiento de incidencias y consulta de servicios corporativos.</div>
+      <form id="loginForm" class="login-form"><label>Correo electrónico corporativo</label><input type="email" name="correo" value="cliente@empresa.test" autocomplete="username" required><label>Contraseña</label><input type="password" name="password" value="Cliente2026!" autocomplete="current-password" required><button class="primary fill" type="submit">Ingresar al Portal <span>→</span></button></form>
+      <div class="demo-help"><span>CUENTAS DEMOSTRATIVAS</span><p>Seleccione un perfil de acceso para cargar sus credenciales de prueba.</p></div>
+      <div class="login-contact">◉ Central de Ayuda NOC 24/7 · entorno de demostración local</div>
+    </div><div class="login-footer">Políticas de privacidad · Gestión de servicio · Seguimiento de SLA</div>
+   </div>
+  </div>
+ </section>
+ <div id="appView" class="app hidden"><aside class="sidebar"><div class="side-head"><span class="brand-icon">F</span><div><b>NexusDesk</b><small>NOC ENTERPRISE</small></div></div><div class="side-items"><div class="side-label">PRINCIPAL</div><button class="nav active" data-page="dashboard"><span>▦</span> Dashboard NOC</button><div class="side-label">GESTIÓN DE INCIDENCIAS</div><button class="nav no-tech" data-page="nuevo"><span>⊕</span> Nuevo Ticket</button><button class="nav" data-page="kanban"><span>▥</span> Tablero Kanban</button><button class="nav" data-page="detalle"><span>◎</span> Detalle y Seguimiento</button><div class="side-label">ADMINISTRACIÓN &amp; REPORTES</div><button class="nav admin-tech" data-page="reporte"><span>◈</span> Cumplimiento SLA</button><button class="nav only-admin" data-page="usuarios"><span>♙</span> Usuarios y Roles</button></div><div class="side-footer"><b>◉ CENTRAL NOC 24/7</b><span>Portal corporativo de soporte</span><small>NexusDesk v1.0 · Java 21</small></div></aside>
+  <div class="workspace"><header class="topbar"><button id="menuToggle" class="icon-btn mobile-menu" aria-label="Abrir menú">☰</button><div class="top-status"><span class="live-dot"></span> NOC en línea · Gestión de servicio 24/7</div><label class="top-search"><span>⌕</span><input id="globalSearch" placeholder="Buscar ticket por código FLX-XXXX" autocomplete="off"></label><div class="top-actions"><button id="alertsButton" class="icon-btn" aria-label="Alertas">♧<i id="alertBubble">0</i></button><div class="user-chip"><span class="avatar" id="avatar">U</span><span><b id="userName">Usuario</b><small id="userRole">Perfil</small></span></div><button class="icon-btn logout" id="logoutButton" title="Cerrar sesión">⎋</button></div></header><main id="main" class="content"></main></div></div>
+ <div id="toast" role="alert" class="toast hidden"></div>
+ <script src="/app.js"></script>
+</body></html>
